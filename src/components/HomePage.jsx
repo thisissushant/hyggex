@@ -2,6 +2,7 @@ import {} from "react";
 import Navbar from "./Navbar";
 import { FaChevronRight } from "react-icons/fa6";
 import { AiOutlineHome } from "react-icons/ai";
+import Card from "./Card";
 
 const HomePage = () => {
   return (
@@ -25,6 +26,7 @@ const HomePage = () => {
           Relation and Function ( Mathematics )
         </h1>
       </div>
+      <Card />
     </div>
   );
 };
