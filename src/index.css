@@ -6,7 +6,7 @@
   perspective: 1000px;
 }
 .flip-card-inner {
-  transition: transform 0.6s;
+  transition: transform 0.1ms;
   transform-style: preserve-3d;
 }
 .flip-card-front,
