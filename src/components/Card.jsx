@@ -99,7 +99,7 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto flex md:justify-between flex-col items-center pt-5">
+      <div className="container mx-auto flex md:justify-between md:flex-row flex-col items-center pt-5">
         <div className="flex gap-2 p-4">
           <div className="shadow-md shadow-black rounded-full ">
             <IoIosArrowDown className="text-7xl " />
