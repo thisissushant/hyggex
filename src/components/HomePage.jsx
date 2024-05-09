@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import { FaChevronRight } from "react-icons/fa6";
 import { AiOutlineHome } from "react-icons/ai";
 import Card from "./Card";
+import Faq from "./Faq";
 
 const HomePage = () => {
   return (
@@ -27,6 +28,7 @@ const HomePage = () => {
         </h1>
       </div>
       <Card />
+      <Faq />
     </div>
   );
 };

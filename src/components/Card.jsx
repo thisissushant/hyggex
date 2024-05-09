@@ -7,6 +7,7 @@ import {
   IoIosArrowDroprightCircle,
   IoMdRefresh,
   IoIosArrowDown,
+  IoIosAddCircle,
 } from "react-icons/io";
 import { RiFullscreenLine } from "react-icons/ri";
 
@@ -100,8 +101,8 @@ const Card = () => {
       </div>
       <div className="container mx-auto flex justify-between  items-center pt-5">
         <div className="flex gap-2 p-4">
-          <div className="shadow-xl shadow-black rounded-full ">
-            <IoIosArrowDown className="text-8xl " />
+          <div className="shadow-md shadow-black rounded-full ">
+            <IoIosArrowDown className="text-7xl " />
           </div>
           <div className="mt-4">
             <p className="text-xs font-bold text-gray-500">Published by</p>
@@ -110,7 +111,14 @@ const Card = () => {
             </h1>
           </div>
         </div>
-        <div>2</div>
+        <div className="flex gap-2 p-4">
+          <div className=" ">
+            <IoIosAddCircle className="text-6xl text-blue-800" />
+          </div>
+          <div className="mt-4">
+            <p className="text-2xl font-bold text-blue-800">Create Flashcard</p>
+          </div>
+        </div>
       </div>
     </div>
   );

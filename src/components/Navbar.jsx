@@ -4,8 +4,10 @@ const Navbar = () => {
   return (
     <nav className="  p-4">
       <div className="container mx-auto flex justify-between items-center ">
-        <div className="text-black text-2xl ">
-          Hygge<span className="font-semibold text-4xl">X</span>
+        <div>
+          <h1 className="text-3xl text-blue-800">
+            Hygge<span className="font-bold">X</span>
+          </h1>{" "}
         </div>
         <div className="flex space-x-4 gap-6">
           <a href="/" className="text-black">
