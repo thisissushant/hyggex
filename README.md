@@ -1,8 +1,39 @@
-# React + Vite
+# Hyggex
+This is a React application which is clone of given figma file. The application is responsive foe all the devices.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+Card Flip feature implimented using framer motion.
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* React
+* Tailwind CSS
+* Framer Motion
+
+## Local Setup
+
+Follow these steps to run the application locally:
+
+#### Clone the repository:
+
+```bash
+git clone https://github.com/thisissushant/hyggex
+```
+#### Navigate to the project directory:
+
+```bash
+cd hyggex
+```
+#### Install dependencies:
+
+```bash
+npm install
+```
+#### Start the development server:
+
+```bash
+npm start
+```
+
+## Live Project
+[Click here to view live app](https://hyggex-weld.vercel.app/)
