@@ -2,15 +2,15 @@ import {} from "react";
 
 const Navbar = () => {
   return (
-    <nav className="  p-4">
+    <nav className="p-4">
       <div className="container mx-auto flex justify-between items-center ">
-        <div>
-          <h1 className="text-3xl text-blue-800">
+        <div className="">
+          <h1 className="text-3xl text-blue-800 m-1 ">
             Hygge<span className="font-bold">X</span>
-          </h1>{" "}
+          </h1>
         </div>
-        <div className="flex space-x-4 gap-6">
-          <a href="/" className="text-black">
+        <div className="md:flex md:space-x-4 md:gap-6 hidden ">
+          <a href="/" className="text-black  ">
             Home
           </a>
           <a href="/" className="text-black">

@@ -24,7 +24,7 @@ const Card = () => {
   return (
     <div>
       <div className="container mx-auto flex justify-center items-center pt-10">
-        <ul className="flex flex-row gap-14 text-xl text-gray-500 py-5">
+        <ul className="flex flex-row md:gap-14 gap-8 text-base md:text-xl text-gray-500 py-5">
           <a
             href="/"
             className="underline underline-offset-8 text-blue-800 font-semibold"
@@ -39,7 +39,7 @@ const Card = () => {
       </div>
       <div className="flex items-center justify-center  cursor-pointer">
         <div
-          className="flip-card w-[600px] h-[360px] rounded-md"
+          className="flip-card w-[600px] h-[360px] rounded-md m-2"
           onClick={handleflip}
         >
           <motion.div
@@ -81,32 +81,32 @@ const Card = () => {
         </div>
       </div>
       <div className="container mx-auto flex justify-center  items-center pt-5">
-        <div className="flex gap-14">
+        <div className="flex flex-row md:gap-14 gap-8 text-base md:text-xl text-gray-500 py-5">
           <div>
-            <IoMdRefresh className="text-4xl text-blue-800" />
+            <IoMdRefresh className="text-3xl md:text-4xl text-blue-800" />
           </div>
           <div>
-            <IoIosArrowDropleftCircle className="text-6xl text-blue-800 " />
+            <IoIosArrowDropleftCircle className="text-4xl md:text-6xl text-blue-800 " />
           </div>
           <div>
-            <h1 className="text-2xl font-semibold ">01/10</h1>
+            <h1 className="md:text-2xl text-xl font-semibold ">01/10</h1>
           </div>
           <div>
-            <IoIosArrowDroprightCircle className="text-6xl text-blue-800" />
+            <IoIosArrowDroprightCircle className="md:text-6xl text-4xl text-blue-800" />
           </div>
           <div>
-            <RiFullscreenLine className="text-4xl text-blue-800 " />
+            <RiFullscreenLine className="text-3xl md:text-4xl text-blue-800 " />
           </div>
         </div>
       </div>
-      <div className="container mx-auto flex justify-between  items-center pt-5">
+      <div className="container mx-auto flex md:justify-between flex-col items-center pt-5">
         <div className="flex gap-2 p-4">
           <div className="shadow-md shadow-black rounded-full ">
             <IoIosArrowDown className="text-7xl " />
           </div>
           <div className="mt-4">
             <p className="text-xs font-bold text-gray-500">Published by</p>
-            <h1 className="text-3xl text-blue-800">
+            <h1 className="md:text-3xl text-2xl text-blue-800">
               Hygge<span className="font-bold">X</span>
             </h1>
           </div>
@@ -116,7 +116,9 @@ const Card = () => {
             <IoIosAddCircle className="text-6xl text-blue-800" />
           </div>
           <div className="mt-4">
-            <p className="text-2xl font-bold text-blue-800">Create Flashcard</p>
+            <p className="text-2xl  font-bold text-blue-800">
+              Create Flashcard
+            </p>
           </div>
         </div>
       </div>
